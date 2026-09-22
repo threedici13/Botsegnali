@@ -59,7 +59,6 @@ def main():
     print("Bot avviato...")
     app.run_polling()
 
-python
 if _name_ == "_main_":
 
 
