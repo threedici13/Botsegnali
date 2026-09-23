@@ -7,6 +7,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 TOKEN = os.environ.get("BOT_TOKEN")
+FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY")
 PORT = int(os.environ.get("PORT", 10000))
 
 class HealthHandler(BaseHTTPRequestHandler):
